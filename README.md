@@ -15,20 +15,25 @@ $ npm i --save pixel-white-bg
 
 const pixelWhiteBg = require("pixel-white-bg");
 
-console.log(pixelWhiteBg());
+console.log(pixelWhiteBg({
+    r: 255
+  , g: 42
+  , b: 7
+  , a: 0.5
+}));
+// PixelClass { r: 255, g: 148.5, b: 131, a: 1 }
 ```
 
 ## Documentation
 
-### `pixelWhiteBg(a, b)`
+### `pixelWhiteBg(pixel)`
 Set white background color for a pixel.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **Pixel** `pixel`: A [`Pixel`](https://github.com/IonicaBizau/pixel-class) instance.
 
 #### Return
-- **Number** Return description.
+- **Pixel** The `Pixel` instance.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].

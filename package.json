@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/pixel-white-bg/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/pixel-white-bg#readme"
+  "homepage": "https://github.com/IonicaBizau/pixel-white-bg#readme",
+  "dependencies": {
+    "pixel-bg": "^1.0.0"
+  }
 }
