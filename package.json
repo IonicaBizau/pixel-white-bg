@@ -12,7 +12,7 @@
     "a"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,5 +28,16 @@
   "homepage": "https://github.com/IonicaBizau/pixel-white-bg#readme",
   "dependencies": {
     "pixel-bg": "^1.0.0"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
