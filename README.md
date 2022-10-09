@@ -29,7 +29,7 @@
 
 
 
-> Set white background color for a pixel.
+> Set white background color for a single pixel.
 
 
 
